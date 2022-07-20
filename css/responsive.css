@@ -1,0 +1,257 @@
+@media only screen and (max-width:688px){
+    /*=====================================
+                BANNER PART START
+    ======================================*/
+    #banner{
+        padding: 0;
+    }
+    .banner_part{
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner_text{
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .banner_text h2{
+        font-size: 22px;
+    }
+    .banner_text p{
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        line-height: 25px;
+        padding: 0 100px;
+    }
+    .banner_img{
+        left: 20px;
+    }
+    .banner_img img{
+        width: 100%;
+    }
+    /*=====================================
+                BANNER PART END
+    ======================================*/
+    /*=====================================
+                     BLOG PART START
+    ======================================*/
+
+    .blogs_part{
+        display: block;
+        padding-bottom: 30px;
+    }
+    .catagory{
+        border-radius: 30px;    
+        background-color: #FFFFFF;
+        margin: 0;
+        width: 100%;
+    }
+    .catagory a{
+        font-weight: 500;
+        font-size: 20px;
+        color: #161616;
+        padding: 15px 15px;
+        background-color: #FFFFFF;
+        display: block;
+        margin: 35px;
+        text-align: center;
+        border-radius: 5px;
+        transition: all linear .3s;
+        text-align: center;
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 0 0 0;
+        grid-column-gap: 10px;
+        justify-content: center;
+        width: 100%;
+    }    
+    .blog{
+        width: 100%;
+    }
+    .view-all{
+        visibility: hidden;
+    }
+    /*=====================================
+               BLOG PART END
+    ======================================*/
+    /*=====================================
+            FOOTER PART START
+    ======================================*/
+    footer{
+        padding: 30px 0;
+        margin: 0 auto;
+    }
+    .container{
+        width: 100%;
+        overflow: hidden;
+    }
+    .footer_top h2{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footer_bottom{
+        width: 100%;
+    }
+    .footer_bottomul li a{
+        font-size: 14px;
+    }
+    .footer_bottom ul li{
+        padding: 10px 0;
+    }
+    .footer_bottom ul{
+        display: block;
+        margin-top: 20px;
+    }
+    .social_media ul{
+        margin-top: 20px;
+    }
+}    
+/*=====================================
+           FOOTER PARTN END
+======================================*/
+
+/*=====================================
+           FOR TABLET DEVICES
+======================================*/
+@media only screen and (min-width: 689px) and (max-width: 992px){
+    /*=====================================
+             BANNER PART START
+    ======================================*/
+    #banner{
+        padding-bottom: 30px;
+        padding-top: 0;
+    }
+    .banner_part{
+        display: flex;
+        background-color: #161616;
+        border-radius: 5px;
+        padding-top: 0;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .banner_text{
+        width: 289px;
+    }
+
+    .banner_text h2{
+        font-size: 40px;
+    }
+    .banner_text p{
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.8);
+        line-height: 25px;
+    }
+    .banner_img img{
+        width: 100%;
+    }
+    /*=====================================
+                 BANNER PART END
+    ======================================*/
+
+
+    /*=====================================
+                 BLOG PART START
+    ======================================*/
+    .blogs_part{
+        padding-bottom: 30px;
+    }
+    .catagory{
+        border-radius: 30px;    
+        background-color: #FFFFFF;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .catagory a{
+        font-size: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        border-radius:10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 1px solid rgba(232, 232, 232, 1);
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .blogs_part{
+        display: block;
+        padding-bottom: 30px;
+    }
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 0 0 0;
+        grid-column-gap: 10px;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }   
+    .blog{
+        width: 100%;
+    }
+    .view-all{
+        visibility: visible;
+        text-align: center;
+    }
+    
+}
+/*=====================================
+           FOR LARGE DEVICES
+======================================*/
+@media only screen and (min-width: 993px) and (max-width: 1312px){
+
+    
+    /*=====================================
+                 BANNER PART START
+    ======================================*/
+    #banner{
+
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .banner_part{
+        display: flex;
+        background-color: #161616;
+        border-radius: 5px;
+        padding-top: 0;
+        align-items: center;
+    }
+    .banner_img img{
+        width: 100%;
+    }
+
+    /*=====================================
+                 BLOG PART START
+    ======================================*/
+    .blogs{
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 0 0 0;
+        grid-column-gap: 10px;
+        justify-content: center;
+    }   
+    .blog{
+        width: 100%;
+    }
+    .view-all{
+        visibility: hidden;
+    }
+    /*=====================================
+                 FOOTER PART START
+    ======================================*/
+    
+}
+
+@media only screen and (min-width: 1313px) and (max-width: 1400px){
+    .view-all{visibility: hidden;}
+}
+@media only screen and (min-width: 1401px) and (max-width: 20000px){
+    .view-all{visibility: hidden;}
+}
